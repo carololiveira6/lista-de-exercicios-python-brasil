@@ -11,5 +11,6 @@ Escreva um programa que mostre a mensagem "Olá Mundo"
 
 
 def ola_mundo():
-    """Escreva aqui em baixo a sua solução"""
+    print("Hello World, I'm here again")
 
+ola_mundo()
