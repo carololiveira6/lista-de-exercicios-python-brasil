@@ -11,12 +11,13 @@ Faça um Programa que peça dois números inteiros e imprima a soma.
     A soma dos dois números informados é 85
 
 """
-
+import sys
 
 def imprima_a_soma_de_dois_numeros():
     first_number = int(input("Digite o primeiro número: "))
     second_number = int(input("Digite o segundo número: "))
     result = first_number + second_number
     print("A soma dos dois números informados é", result)
+    sys.exit(0)
 
 imprima_a_soma_de_dois_numeros()

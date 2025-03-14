@@ -39,7 +39,7 @@ Para rodar os testes de um módulo em sua máquina, rode:
 ```sh
 python -m doctest -f <nome_do_pacote>/<nome_do_script>
 ```
-Basta substituir o <nome_do_pacote> pelo nome do pacote e <nome_do_script> pelo nome do escript.
+Basta substituir o <nome_do_pacote> pelo nome do pacote e <nome_do_script> pelo nome do script.
 Exemplo para rodar os testes do primeiro exercício:
 
 ```

@@ -11,6 +11,6 @@ Escreva um programa que mostre a mensagem "Olá Mundo"
 
 
 def ola_mundo():
-    print("Hello World, I'm here again")
+    print("Olá Mundo")
 
 ola_mundo()

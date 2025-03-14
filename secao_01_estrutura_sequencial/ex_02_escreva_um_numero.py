@@ -10,10 +10,12 @@ Faça um Programa que peça um número e então mostre a mensagem O número info
     O número informado foi 42
 
 """
+import sys
 
 def escreva_um_numero():
     numero = input("Digite um número: ")
     print("O número informado foi", numero)
+    sys.exit(0)
 
 escreva_um_numero()
 

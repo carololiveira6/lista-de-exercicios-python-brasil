@@ -14,7 +14,12 @@ Mostrar apenas valor inteiro da temperatura
     Essa temperatura é de 70 Fahrenheit
 
 """
-
+import sys
 
 def transformar_para_fahrenheit():
-    """Escreva aqui em baixo a sua solução"""
+    celsius = float(input('Digite a temperatura em Celsius: '))
+    fahrenheit = (9/5) * celsius + 32
+    print(f'A temperatura é de {int(fahrenheit)} Fahrenheit')
+    sys.exit(0)
+
+transformar_para_fahrenheit()

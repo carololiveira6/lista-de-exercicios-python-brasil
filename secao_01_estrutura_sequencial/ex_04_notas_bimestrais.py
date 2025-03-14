@@ -11,7 +11,7 @@ Faça um Programa que peça as 4 notas bimestrais e mostre a média.
     A média anual é 8.5
 
 """
-
+import sys
 
 def calcular_media():
     notas = []
@@ -31,5 +31,6 @@ def calcular_media():
     media = sum(notas) / len(notas)
 
     print("A média anual é", media)
+    sys.exit(0)
 
 calcular_media()
